@@ -1,0 +1,53 @@
+/* Navbar.css */
+
+.navbar {
+  background: #a8c5e0; /* AntD default dark header color */
+  padding: 0 40px;
+}
+
+/* Left Side - Logo */
+.navbar-logo {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.navbar-logo:hover{
+    color: #1890ff;
+}
+/* Center Menu */
+.navbar-menu {
+  background: transparent !important;
+  border-bottom: none !important;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-menu .ant-menu-item {
+  font-size: 16px;
+  padding: 0 20px;
+  color: #fff;
+}
+.navbar-menu .ant-menu-item-active {
+  color: #1890ff !important;
+}
+/* .navbar-menu .ant-menu-item:hover{
+    color: #40a9ff;
+} */
+/* Right Side - Button */
+.navbar-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-btn {
+  background-color: #1890ff;
+  border: none;
+  font-size: 15px;
+  padding: 0 20px;
+}
+
+.navbar-btn:hover {
+  background-color: #40a9ff !important;
+}
